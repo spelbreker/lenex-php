@@ -1,11 +1,15 @@
 {
-  "name": "leonverschuren/lenex",
+  "name": "spelbreker/lenex",
   "type": "library",
   "description": "Swimranking Lenex file format parser",
   "authors": [
     {
       "name": "Leon Verschuren",
       "email": "lverschuren@hotmail.com"
+    },
+    {
+      "name": "Patrick Browuer",
+      "email": "patrickbrouwer@outlook.com"
     }
   ],
   "license": "MIT",
@@ -18,5 +22,10 @@
   },
   "autoload": {
     "psr-4": {"leonverschuren\\Lenex\\": "src/"}
-  }
+  },
+  "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
 }
